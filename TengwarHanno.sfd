@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1578762598
-ModificationTime: 1685114378
+ModificationTime: 1685278899
 PfmFamily: 65
 TTFWeight: 400
 TTFWidth: 5
@@ -78,7 +78,7 @@ Lookup: 1 0 0 "Single Substitution lookup 18" { "Single Substitution lookup 18 s
 Lookup: 1 0 0 "Single Substitution lookup 19" { "Single Substitution lookup 19 subtable"  } []
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 0" { "'mark' Mark Positioning lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 1" { "'mkmk' Mark to Mark lookup 1-1"  } ['mkmk' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 2" { } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 8 0 "'kern' Horizontal Kerning lookup 2" { "'kern' Horizontal Kerning lookup 2-1" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "EssenBar contextual 3" 0 0 0 1
@@ -4109,7 +4109,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 351 39 14
+WinInfo: 0 39 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 209715 104857 69905 484442 1048576 69905 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -10950,43 +10950,6 @@ Encoding: 110 110 81
 Width: 550
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 32
- 23
- 7
- 6
- 3
- 1
- 0
- 1
- 76
- 0
- 0
- 0
- 2
- 97
- 0
- 2
- 2
- 68
- 77
- 3
- 1
- 1
- 1
- 60
- 1
- 78
- 37
- 39
- 37
- 34
- 4
- 10
- 26
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -11010,7 +10973,6 @@ SplineSet
  470 0 470 0 459.5 -2.5 c 128,-1,25
  449 -5 449 -5 438 -5 c 0,26,27
  395 -5 395 -5 395 31 c 2,28,-1
- 395 301 l 1,29,-1
  395 301 l 1,0,1
 EndSplineSet
 Validated: 5
@@ -98344,6 +98306,7 @@ SplineSet
  187 68 187 68 169 103 c 0,0,1
 EndSplineSet
 Validated: 1048577
+Kerns2: 795 -25 "'kern' Horizontal Kerning lookup 2-1"
 EndChar
 
 StartChar: arda
@@ -98405,6 +98368,7 @@ SplineSet
  33.8833007812 20.9672851562 33.8833007812 20.9672851562 46.8837890625 37.966796875 c 0,45,46
 EndSplineSet
 Validated: 1048581
+Kerns2: 793 -50 "'kern' Horizontal Kerning lookup 2-1" 795 -25 "'kern' Horizontal Kerning lookup 2-1" 809 -25 "'kern' Horizontal Kerning lookup 2-1"
 EndChar
 
 StartChar: lambe
@@ -98463,6 +98427,7 @@ SplineSet
  608 405 608 405 608 391 c 256,12,13
 EndSplineSet
 Validated: 1048581
+Kerns2: 793 -50 "'kern' Horizontal Kerning lookup 2-1"
 EndChar
 
 StartChar: alda
@@ -98528,6 +98493,7 @@ SplineSet
  312 -95 312 -95 343 -95 c 0,12,13
 EndSplineSet
 Validated: 1048581
+Kerns2: 812 -25 "'kern' Horizontal Kerning lookup 2-1"
 EndChar
 
 StartChar: silme
@@ -98573,6 +98539,7 @@ SplineSet
  33 149 33 149 33 200 c 0,0,1
 EndSplineSet
 Validated: 1048577
+Kerns2: 785 -50 "'kern' Horizontal Kerning lookup 2-1" 788 -50 "'kern' Horizontal Kerning lookup 2-1" 790 -193 "'kern' Horizontal Kerning lookup 2-1"
 EndChar
 
 StartChar: silme_nuquerna
@@ -98618,6 +98585,7 @@ SplineSet
  416 324 416 324 416 273 c 0,0,1
 EndSplineSet
 Validated: 1048577
+Kerns2: 812 -50 "'kern' Horizontal Kerning lookup 2-1"
 EndChar
 
 StartChar: esse
@@ -98687,6 +98655,7 @@ SplineSet
  122.897460938 32.12109375 122.897460938 32.12109375 142.8984375 38.12109375 c 1,36,-1
 EndSplineSet
 Validated: 1048613
+Kerns2: 785 -50 "'kern' Horizontal Kerning lookup 2-1" 787 -50 "'kern' Horizontal Kerning lookup 2-1" 788 -100 "'kern' Horizontal Kerning lookup 2-1" 792 -50 "'kern' Horizontal Kerning lookup 2-1"
 EndChar
 
 StartChar: esse_nuquerna
@@ -98761,6 +98730,7 @@ SplineSet
  153 474 153 474 189.202148438 474.215820312 c 0,36,37
 EndSplineSet
 Validated: 1048613
+Kerns2: 788 -25 "'kern' Horizontal Kerning lookup 2-1" 812 -50 "'kern' Horizontal Kerning lookup 2-1"
 EndChar
 
 StartChar: hyarmen
@@ -98811,6 +98781,7 @@ SplineSet
  150 334 150 334 163 358 c 0,0,1
 EndSplineSet
 Validated: 1048577
+Kerns2: 785 -25 "'kern' Horizontal Kerning lookup 2-1" 787 -25 "'kern' Horizontal Kerning lookup 2-1" 788 -50 "'kern' Horizontal Kerning lookup 2-1" 792 -25 "'kern' Horizontal Kerning lookup 2-1" 812 -75 "'kern' Horizontal Kerning lookup 2-1"
 EndChar
 
 StartChar: hwesta_sindarinwa
@@ -98915,6 +98886,7 @@ SplineSet
  89 -6 89 -6 68 -6 c 0,0,1
 EndSplineSet
 Validated: 1048577
+Kerns2: 785 -50 "'kern' Horizontal Kerning lookup 2-1" 787 -50 "'kern' Horizontal Kerning lookup 2-1" 788 -100 "'kern' Horizontal Kerning lookup 2-1" 792 -50 "'kern' Horizontal Kerning lookup 2-1" 812 -100 "'kern' Horizontal Kerning lookup 2-1"
 EndChar
 
 StartChar: uure
@@ -99407,7 +99379,7 @@ StartChar: formen_reversed
 Encoding: 57400 57400 808
 Width: 549
 GlyphClass: 2
-Flags: WO
+Flags: W
 AnchorPoint: "xhook" 391 25 basechar 0
 AnchorPoint: "inside" 296 225 basechar 0
 AnchorPoint: "TehtaBelow" 296 -75 basechar 0
@@ -99457,7 +99429,7 @@ SplineSet
  275.510742188 -10.1513671875 275.510742188 -10.1513671875 241.510742188 -10.1513671875 c 2,52,-1
  25.5107421875 -10.1513671875 l 1,41,42
 EndSplineSet
-Validated: 1572869
+Validated: 1048581
 EndChar
 
 StartChar: bombadil_hw
@@ -99508,6 +99480,7 @@ SplineSet
  298 393 298 393 316 358 c 0,0,1
 EndSplineSet
 Validated: 1048577
+Kerns2: 785 -50 "'kern' Horizontal Kerning lookup 2-1" 787 -25 "'kern' Horizontal Kerning lookup 2-1" 812 -25 "'kern' Horizontal Kerning lookup 2-1"
 EndChar
 
 StartChar: tengwa_mh
